@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .mapboxgl-map {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  }
+
+  .mapboxgl-popup-content {
+    padding: 10px;
+    max-width: 300px;
+  }
+
+  .mapboxgl-popup-content h3 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+  }
+
+  .mapboxgl-popup-content p {
+    margin: 3px 0;
+    font-size: 12px;
+  }
